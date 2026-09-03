@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Serverservice
+
+server:
+  port: 8761
+
+eureka:
+  instance: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+
+
